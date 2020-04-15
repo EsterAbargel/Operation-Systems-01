@@ -1,4 +1,4 @@
-all: task1 task2 task3
+all: task1 task2 task3 task4
 
 task1: main2_1.c
 	   gcc main2_1.c -o fork
