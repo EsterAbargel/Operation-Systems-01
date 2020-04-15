@@ -6,7 +6,7 @@ void print(const char *txt){
     for ( i = 0; i < 20; i++)
     {
        printf("Hello from %s\n", txt);
-       unsleep(1000000);
+       usleep(1000000);
     }
 }
 
